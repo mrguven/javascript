@@ -294,7 +294,42 @@ function Person (firstName1,lastName1,dob) {
         return this.dob.getFullYear;
     }
 
-};
+    this.getFullName = function () {
+        return `${this.firstName1} ${this.lastName1}`;
+    }
+}
+
+Person.prototype.getBirthYear = function () {
+    return this.dob.getFullYear;
+}
+
+Person.prototype.getFullName = function () {
+    return `${this.firstName1} ${this.lastName1} `
+}
+
+
+
+//Class
+
+class Person1 {
+    constructor(firstName1,lastName1,dob) {
+        this.firstName1 = firstName1;
+        this.lastName1 = lastName1;
+         this.dob = new Date(dob);
+      
+    }
+
+    getBirthYear() {
+        return this.dob.getFullYear;
+    }
+
+    getFullName() {
+        return `${this.firstName1} ${this.firstName1}`;
+    }
+
+}
+
+
 
 
 
@@ -305,8 +340,14 @@ const person3 = new Person('mary','Smith', '3-6-1970');
 
 console.log(person2.getBirthYear()); 
 
+console.log (person2.getFullName());
 
 
+console.log(person3.getFullName());
+
+
+
+//DOM
 
 
 
