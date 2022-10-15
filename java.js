@@ -349,20 +349,96 @@ console.log(person3.getFullName());
 
 //DOM
 
+console.log(window);
+
+//single element selector
+
+//document.getElementById();  // '' we write id name in de  quotes
+
+//console.log(document.querySelector());  to use items call, mostly use.
 
 
 
 
+// multiple element selector
+
+
+// console.log(document.querySelectorAll()) it is used for all elements
+
+//console.log(document.getElementByClassName());
+//console.log(document.getElementByTagName());
+
+/*  const items = document.querySelectorAll('.item');
+
+items.forEach((item) => console.log(item));
+
+
+const ul = document.querySelector('.items');  */
+
+//ul.remove();
+
+//ul.lastElementChild.remove();
+
+//ul.firstElementChild.textContent = 'hello';
+
+//ul.children[1].innerText = 'Brad';
+
+
+
+/*  const btn = document.querySelector('.btn')
+
+btn.style.background = 'red'; */
+
+/*
+
+const btn = document.querySelector('.btn');
+btn.addEventListener('click', e => {
+   // console.log('click');
+
+    document.querySelector('body').classList.add('bg-dark');
+    document.querySelector('.items').lastElementChild.innerHTML = '<h1>hello</h1>'
+} );
+
+
+
+*/
+
+/*
+
+const myForm = document.querySelector('#my-form');
+const nameInput = document.querySelector('#name');
+
+myForm.addEventListener('submit', onsubmit);
+
+function onsubmit (e) {
+    e.preventDefault();
+    if (nameInput.value === '' || emailInput.value === '') {
+      //  alert('Please fill field');
+        Msg.InnerHTML = 'please fill the field';
+
+        setTimeout(() => Msg.remove(),3000);
+    }
+
+    else {
+
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode('${nameInput.value} : ${emailInput.value}'));
+
+        userlist.appendChild(li);
+        //console.log('success')
+    }
+
+}
+
+//clear fields
+
+nameInput.value = '';
+emailInput.value = '';
 
 
 
 
-
-
-
-
-
-
+*/
 
 
 
