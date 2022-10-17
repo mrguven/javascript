@@ -24,24 +24,37 @@ function myFunction () {
 }
 
 
-let img = document.getElementById('imgchange');
-img.addEventListener("click",  myFunction);
-function myFunction () {img.src=imgArray[random];}  
+
+
+
+
+ 
+
+
+
+
+
 
 
 const imgArray = ['images.jpg' , 'images(1).jpg', 'images(2).jpg', 'images(3).jpg', 'images(4).jpg', 'images(5).jpg', 'images(1).jpg','download5.jpg','download6.jpg','download.jpg','download(2).jpg']
 
 
-let img1 = document.getElementById('imgchange-1');
-img1.addEventListener("click",  myFunction1);
+    
+
+    let img = document.getElementById('imgchange');
+    img.addEventListener("click",  myFunction);
+    function myFunction () {
+    const random = Math.floor(Math.random() * imgArray.length);
+    img.src=imgArray[random];} 
 
 
-function myFunction () {img.src=imgArray[random];}   
- 
-function myFunction1 () {img1.src=imgArray[random];} 
-
-
- const random = Math.floor(Math.random() * imgArray.length);
+    
+    let img1 = document.getElementById('imgchange-1');
+    img1.addEventListener("click",  myFunction1);
+    function myFunction1 () {const random = Math.floor(Math.random() * imgArray.length);
+        img1.src=imgArray[random];} 
+   
+    
 
  
 
