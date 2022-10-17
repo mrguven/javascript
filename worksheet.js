@@ -25,8 +25,8 @@ function myFunction () {
 
 
 let img = document.getElementById('imgchange');
-img.addEventListener("click",  myFunction1);
-function myFunction1 () {img.src=imgArray[random];}  
+img.addEventListener("click",  myFunction);
+function myFunction () {img.src=imgArray[random];}  
 
 
 const imgArray = ['images.jpg' , 'images(1).jpg', 'images(2).jpg', 'images(3).jpg', 'images(4).jpg', 'images(5).jpg', 'images(1).jpg','download5.jpg','download6.jpg','download.jpg','download(2).jpg']
@@ -36,9 +36,9 @@ let img1 = document.getElementById('imgchange-1');
 img1.addEventListener("click",  myFunction1);
 
 
-function myFunction1 () {img.src=imgArray[random];}   
+function myFunction () {img.src=imgArray[random];}   
  
-
+function myFunction1 () {img1.src=imgArray[random];} 
 
 
  const random = Math.floor(Math.random() * imgArray.length);
