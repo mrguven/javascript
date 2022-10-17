@@ -60,9 +60,7 @@ body {
 a :visited {
     color: blue;
 }
-:active {
-    color: brown;
-}
+
 
 
 .head a:hover {
