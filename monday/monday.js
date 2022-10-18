@@ -3,7 +3,7 @@ console.log('//1'); /// there are head of problem
 
 
 for (var i = 0; i < 136; i++) {
-    console.log(i)
+    console.log(i);
 }
 
 
@@ -11,7 +11,7 @@ for (var i = 0; i < 136; i++) {
 console.log('//2'); //head
 
 for (var i = 1; i < 136; i+=2) {
-    console.log(i)
+    console.log(i);
 }
 
 
