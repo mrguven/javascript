@@ -65,3 +65,8 @@ console.log('//7');
 
 const negative = [2,-1,4,-3];
 
+
+
+
+
+console.log('///8')
