@@ -84,6 +84,13 @@ while (a <100){
  //6- Comminist??? I could not do that
 
 
+ let Comminist= ['Man', 'I','Love','The','Matrix','Program'];
+
+ 
+
+ let com1 = Comminist[Comminist.length-1].split('');
+
+ console.log(com1);
 
 
 
