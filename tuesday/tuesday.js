@@ -84,11 +84,12 @@ while (a <100){
  //6- Comminist???/
 
 
- let Comminist = ['Man', 'I','Love','The','Matrix','Program'];
 
-let com1 = Comminist[Comminist.length-1].replace('Program','*')
+
+
+
     
-console.log(com1);
+
 
 
  
