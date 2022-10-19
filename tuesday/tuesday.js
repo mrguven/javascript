@@ -82,24 +82,13 @@ while (a <100){
 
 
  //6- Comminist???/
-/*
+
 
  let Comminist = ['Man', 'I','Love','The','Matrix','Program'];
 
-let i = Comminist.length-1; 
-  Comminist = Comminist[i].replace('','*')
-
-
-console.log(Comminist)
-
- let newCom = Comminist[Comminist.length-1];
-
- let lasCom = newCom.split('');
-
-
-
- console.log(lasCom);
- */
+let com1 = Comminist[Comminist.length-1].replace('Program','*')
+    
+console.log(com1);
 
 
  
