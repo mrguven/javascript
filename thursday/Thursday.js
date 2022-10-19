@@ -18,3 +18,7 @@ function myFunction (a,b) {
 };
    
   console.log(myFunction(asd, asd1));
+
+
+
+
