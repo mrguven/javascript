@@ -81,7 +81,7 @@ while (a <100){
  console.log(ar);
 
 
- //6- Comminist???/
+ //6- Comminist??? I could not do that
 
 
 
