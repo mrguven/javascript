@@ -21,4 +21,19 @@ function myFunction (a,b) {
 
 
 
+/*
 
+  function colorFuntion (color){
+   if ( color === 'red') {
+      return 'stop'
+   }
+   else if (color === 'yellow') {
+      return 'Be aware'
+   }
+   else if (color === 'green'){
+      return 'go'
+   }
+  }
+
+  console.log(colorFuntion('red'));
+  */

@@ -84,14 +84,25 @@ while (a <100){
  //6- Comminist??? I could not do that
 
 
- let Comminist= ['Man', 'I','Love','The','Matrix','Program'];
+ 
 
  
 
- let com1 = Comminist[Comminist.length-1].split('');
+  function replaceWithStar(word) {
+    let X = ['Man', 'I','Love','The','Matrix','Program'];
+    for (i=0; i<X.length; i++) {
+    if (X[i] === word) {
+    let starWord="";
+    for(j=0; j<word.length; j++) {
+    starWord += "*";
+    }
+    X[i] = starWord;
+    }
+    }
+    return X;
+}
 
- console.log(com1);
-
+    console.log(replaceWithStar('Program'));
 
 
 
