@@ -27,18 +27,14 @@ if (isAdmin === undefined){
 
 
 
-let phrase = "Hello"
-
-if (true) {
-  let user = "John";
-  function sayHi() {
-    alert(`${phrase}, ${user}`)
-  }
-}
-
-sayHi()
+//answer: it gives to us Hello John. Because ${} is used to call variable.
 
 /// Exercise  -4-
+let user1 ={name1: "John",surname: "Smith"};
+
+let {name1} = user1;
+console.log(name1);
+
 
 
 /// Exercise  -5-
