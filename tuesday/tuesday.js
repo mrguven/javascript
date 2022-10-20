@@ -87,7 +87,8 @@ while (a <100){
  
 
  
-
+                                            //what if we get the value outside the array and function
+                                            //For example from user???
   function replaceWithStar(word) {
     let X = ['Man', 'I','Love','The','Matrix','Program'];
     for (i=0; i<X.length; i++) {
