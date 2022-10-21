@@ -1,4 +1,4 @@
-let asd = 'aba aba';
+let asd = 'sba aba';
 let asd1 = 'aba aba';
 
 
@@ -20,6 +20,31 @@ function myFunction (a,b) {
   console.log(myFunction(asd, asd1));
 
 
+
+
+const string = "kayak";
+
+function isPalindrome(str) {
+   let reversed = [];
+   for (let i = 0;i< string.length;i++){
+   
+   reversed[i] = string[string.length-1-i];
+   reversed[i]=reversed.join("");
+  
+}
+
+   
+if(string===reversed){
+   return true}
+   else {
+      return false
+   }
+
+   
+
+}
+
+console.log(isPalindrome(string))
 
 /*
 
