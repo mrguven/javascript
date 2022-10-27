@@ -47,7 +47,9 @@ console.log(`my surname is ${usera.surname}`)
 
 /// Exercise  -5-
 
-//it is not chage, because const is not change
+let answer = "answer of question 5: it is not chage, because const is not change"
+
+console.log(answer)
 
 /// Exercise  -6-
 
