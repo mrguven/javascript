@@ -1,0 +1,80 @@
+.setBreak {
+    display: inline-block;
+    width:50%;
+    margin-top: 3%;
+}
+
+.setWork {
+    display: inline-block;
+    width: 40%;
+}
+
+
+
+.timerBreak-1 {
+    display: inline;
+    width: 5%;
+    margin-left: 34%;
+    padding-right: 10px;
+   
+}
+.timerBreak-2 {
+    display: inline;
+    width: 5%;
+    
+    padding: 15px 50px;
+    border: 1px solid;
+    border-radius: 30px;
+
+}
+
+.timerBreak-3 {
+    display: inline;
+    width: 5%;
+    padding-left: 10px;
+   
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+
+.timer-1 {
+    display: inline;
+    width: 15%;
+    margin-left: 30%;
+    padding-right: 10px;
+}
+.timer-2{
+    display: inline;
+    width: 15%;
+    padding: 15px 50px;
+    border: 1px solid;
+    border-radius: 30px;
+    
+
+}
+.timer-3{
+    display: inline;
+    width: 15%;
+    margin-top:100px ;
+    padding-left: 10px;
+   
+}
+
+.showTime {
+    border: 1px solid;
+    padding: 150px 5px;
+    margin-top:10% ;
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 80%;
+    text-align: center;
+    background-color: rgb(219, 233, 233);
+}
+
+.showTime h1 {
+    size: 19px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="pomodoro.css">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+<body>
+    
+
+<div class="setTime">
+    <div class="setBreak">
+        <h1>BREAK:</h1>
+        <div class="timerBreak-1">
+            <button  type="button" class="btn btn-outline-primary" id="minTime"> - </button>
+        </div >
+        <div class="timerBreak-2" id="breakTime" value="0">        </div> 
+        <div class="timerBreak-3">
+            <button type="button" class="btn btn-outline-primary" id="incTime">  + </button>
+         </div> 
+          
+    </div>  
+
+<div class="setWork">
+
+    
+    <h1>WORK:</h1>
+
+        <div class="timer-1">
+            <button type="button" class="btn btn-outline-primary" id="minTime"> - </button>
+        </div>
+    <div class="timer-2" id="workTime"></div>
+        <div class="timer-3">
+             <button type="button" class="btn btn-outline-primary" id="incTime"> +</button>
+        </div>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+<div class="showTime" id="start">
+<h1 id="demo"></h1>
+</div>
+
+
+
+    <script src="Pomodoro.js"></script>
+</body>
+</html>
