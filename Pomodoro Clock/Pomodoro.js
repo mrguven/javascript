@@ -1,25 +1,23 @@
 
 
 
-/*const setWork = document.getElementById("incTime").addEventListener("click", incNumber);
 
-function incNumber () {
-       let nbr = 0;
-       nbr++;
+
+
+
+
+ document.getElementById("incTime").addEventListener("click", incNumber());
+ var userInPut1;
+ function incNumber () {
+      
         
 }
 
+document.getElementById("breakTime").innerHTML=userInPut1;
+
+userInPut1 = 
 
 
-document.getElementById("breakTime").innerHTML = setWork;
 
-*/
 
-function myFunction (a,b) {
-       if (b === 0) {
-              return 1;
-              }
-       else {
-              return a * 
-       }
-}
+ 
