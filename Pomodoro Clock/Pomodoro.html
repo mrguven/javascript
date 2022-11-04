@@ -19,7 +19,7 @@
         <div class="timerBreak-1">
             <button  type="button" class="btn btn-outline-primary" id="minTime"> - </button>
         </div >
-        <div class="timerBreak-2" id="breakTime" value="0">        </div> 
+        <div > <p class="timerBreak-2" id="bMin">5 </p>  <p class="timerBreak-2"  id="bSec">00</p>   </div> 
         <div class="timerBreak-3">
             <button type="button" class="btn btn-outline-primary" id="incTime">  + </button>
          </div> 
@@ -34,7 +34,7 @@
         <div class="timer-1">
             <button type="button" class="btn btn-outline-primary" id="minTime"> - </button>
         </div>
-    <div class="timer-2" id="workTime"></div>
+    <div> <p class="timer-2" id="wMin">25</p> <p class="timer-2" id="wSec">00</p> </div>
         <div class="timer-3">
              <button type="button" class="btn btn-outline-primary" id="incTime"> +</button>
         </div>
@@ -50,9 +50,13 @@
 
 
 <div class="showTime" id="start">
-<h1 id="demo"></h1>
+<h1 id="demo">25</h1>
 </div>
 
+<div>
+<button type="reset"  class="btn btn-outline-primary" id="resetButton">Reset</button>
+<button  class="btn btn-outline-primary"  id="pauseButton"> Pause</button>
+</div>
 
 
     <script src="Pomodoro.js"></script>

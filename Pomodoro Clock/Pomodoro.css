@@ -78,3 +78,17 @@ h1 {
 .showTime h1 {
     size: 19px;
 }
+
+#pauseButton {
+    display: inline-block;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 15%;
+
+}
+
+#resetButton {
+    display: inline-block;
+    width: 40%;
+    margin-top: 20px;
+}
